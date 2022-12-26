@@ -1,0 +1,29 @@
+$primary-color: #f7931a;
+$soft-primary-color: #ffe9d5;
+$secondary-color: #1a9af7;
+$soft-secondary-color: #e7f5ff;
+$background:#E5E5E5;
+$warm-black: #282623;
+$off-white: #FAF8F7;
+$black: #201e1c;
+$grey: #bababa;
+$just-white: #fff;
+
+$size-300: 300;
+$size-400: 400;
+$size-500: 500;
+$size-700: 700;
+
+$primary-font: "DM Sans", sans-serif;
+$secondary-font: "Inter", sans-serif;
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $primary-font;
+}
