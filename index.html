@@ -27,16 +27,79 @@
         <h2 class="exchange__h2">Visibilizamos todas las tasas de cambio.</h2>
         <p class="exchange__p">Traemos información en tiempo real de las casas de cambio y las monedas más importantes del mundo.</p>
       </div>
-      <div class="exchange__tables">
-        <div class="exchange__slider">
-          
+      <div class="exchange__slider">
+        <div class="exchange__slider-wrapper slider-wrapper">
+          <img src="assets/icons/right-arrow.svg" class="slider-wrapper__arrow" id="before" alt="Right arrow">
+
+          <div class="slider-wrapper__body slider-wrapper__body--show" data-id="1">
+            <div class="exchange__table coin-table">
+              <h4 class="coin-table__title">Monedas</h4>
+
+              <div class="coin-table__grid">
+                <div class="coin-table__coin-type coin-table__item">Bitcoin</div>
+                <div class="coin-table__coin-price coin-table__item">$ 1.96
+                  <span class="coin-table__icon coin-table__icon--down"></span>
+                </div>
+
+                <div class="coin-table__coin-type coin-table__item">Ethereum</div>
+                <div class="coin-table__coin-price coin-table__item">$ 0.07
+                  <span class="coin-table__icon coin-table__icon--up"></span>
+                </div>
+
+                <div class="coin-table__coin-type coin-table__item">Ripple</div>
+                <div class="coin-table__coin-price coin-table__item">$ 2.15
+                  <span class="coin-table__icon coin-table__icon--down"></span>
+                </div>
+
+                <div class="coin-table__coin-type coin-table__item">Stellar</div>
+                <div class="coin-table__coin-price coin-table__item">$ 4.96
+                  <span class="coin-table__icon coin-table__icon--down"></span>
+                </div>
+              </div>
+
+              <div class="coin-table__notification">
+                <span class="coin-table__notification--bold">Actualizado:</span> 19 Julio 23:45
+              </div>
+
+            </div>
+          </div>
+
+          <div class="slider-wrapper__body" data-id="2">
+            <div class="exchange__table coin-table">
+              <h4 class="coin-table__title coin-table__title--commissions">Comisiones</h4>
+
+              <div class="coin-table__grid">
+                <div class="coin-table__coin-type coin-table__item">Bitrade</div>
+                <div class="coin-table__coin-price coin-table__item">$ 12.96</div>
+
+                <div class="coin-table__coin-type coin-table__item">Bitpreco</div>
+                <div class="coin-table__coin-price coin-table__item">$ 13.07</div>
+
+                <div class="coin-table__coin-type coin-table__item">Novadax</div>
+                <div class="coin-table__coin-price coin-table__item">$ 13.15</div>
+
+                <div class="coin-table__coin-type coin-table__item">Coinext</div>
+                <div class="coin-table__coin-price coin-table__item">$ 14.96</div>
+              </div>
+
+              <div class="coin-table__notification coin-table__notification--commissions">
+                <span class="coin-table__notification--bold">Actualizado:</span> 19 Julio 23:48
+              </div>
+
+            </div>
+          </div>
+
+          <img src="assets/icons/right-arrow.svg" class="slider-wrapper__arrow" id="after" alt="Right arrow">
         </div>
       </div>
     </div>
-    <div></div>
+    <div class="cards">
+      
+    </div>
     <div></div>
     <div></div>
   </main>
   <footer></footer>
+  <script src="src/sliders.js"></script>
 </body>
 </html>
