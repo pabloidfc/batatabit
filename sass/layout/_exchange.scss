@@ -124,11 +124,11 @@
   }
   &__icon--up {
     display: inline-block;
-    background-image: url("/assets/icons/trending-up.svg");
+    background-image: url("../assets/icons/trending-up.svg");
   }
   &__icon--down {
     display: inline-block;
-    background-image: url("/assets/icons/trending-down.svg");
+    background-image: url("../assets/icons/trending-down.svg");
   }
 
   &__notification {
