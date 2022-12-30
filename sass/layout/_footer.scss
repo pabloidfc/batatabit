@@ -1,0 +1,17 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+  gap: 4rem;
+
+  background: $primary-color;
+
+  &__list {
+    list-style: none;
+  }
+
+  &__li {
+    font-size: .8rem;
+    color: $just-white;
+  }
+}
