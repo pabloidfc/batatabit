@@ -4,7 +4,9 @@
   padding: 0; }
 
 body {
-  font-family: "DM Sans", sans-serif; }
+  font-family: "DM Sans", sans-serif;
+  margin: 0 auto;
+  max-width: 1920px; }
 
 .header {
   display: flex;
@@ -177,6 +179,29 @@ body {
 .coin-table__notification--commissions {
   background: #e7f5ff; }
 
+.coin-table__item:first-child {
+  border-top-left-radius: 8px; }
+
+.coin-table__item:last-child {
+  border-bottom-right-radius: 8px; }
+
+.coin-table__item:nth-child(2) {
+  border-top-right-radius: 8px; }
+
+.coin-table__item:nth-child(7) {
+  border-bottom-left-radius: 8px; }
+
+@media screen and (min-width: 768px) {
+  .slider-wrapper {
+    grid-template-columns: 1fr 1fr;
+    max-width: none;
+    overflow: visible; }
+    .slider-wrapper__body {
+      opacity: 1;
+      grid-column: auto; }
+  .slider-wrapper__arrow {
+    display: none; } }
+
 .cards {
   display: flex;
   flex-direction: column;
@@ -248,6 +273,7 @@ body {
     flex-direction: column;
     align-items: center;
     margin-bottom: 1.1rem;
+    width: 90%;
     gap: 1.5rem; }
   .plans__h2 {
     font-size: 1.5em;
@@ -334,6 +360,18 @@ body {
 
 .plans-cards--recommended {
   position: relative; }
+
+@media screen and (min-width: 768px) {
+  .plans__slider {
+    max-width: 670px;
+    justify-content: center;
+    scroll-snap-type: none;
+    overflow-x: visible; }
+  .plans-cards {
+    max-width: 190px;
+    scroll-snap-align: unset; }
+  .plans__card:nth-child(odd) {
+    order: 100; } }
 
 .footer {
   display: flex;

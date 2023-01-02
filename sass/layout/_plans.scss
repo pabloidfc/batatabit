@@ -10,6 +10,7 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 1.1rem;
+    width: 90%;
     gap: 1.5rem;
   }
 
@@ -128,4 +129,20 @@
 
 .plans-cards--recommended {
   position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  .plans__slider {
+    max-width: 670px;
+    justify-content: center;
+    scroll-snap-type: none;
+    overflow-x: visible;
+  }
+  .plans-cards {
+    max-width: 190px;
+    scroll-snap-align: unset;
+  }
+  .plans__card:nth-child(odd) {
+    order: 100;
+  }
 }

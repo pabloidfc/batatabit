@@ -148,3 +148,32 @@
     background: $soft-secondary-color;
   }
 }
+
+// Border radius on exchange table
+.coin-table__item:first-child {
+  border-top-left-radius: 8px;
+}
+.coin-table__item:last-child {
+  border-bottom-right-radius: 8px;
+}
+.coin-table__item:nth-child(2) {
+  border-top-right-radius: 8px;
+}
+.coin-table__item:nth-child(7) {
+  border-bottom-left-radius: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .slider-wrapper {
+    grid-template-columns: 1fr 1fr;
+    max-width: none;
+    overflow: visible;
+    &__body {
+      opacity: 1;
+      grid-column: auto;
+    }
+  }
+  .slider-wrapper__arrow {
+    display: none;
+  }
+}
