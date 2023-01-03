@@ -327,6 +327,7 @@ body {
     font-size: .8em;
     font-family: "DM Sans", sans-serif;
     font-weight: 700;
+    cursor: pointer;
     color: #BABABA;
     border: 2px solid #BABABA;
     border-radius: 4px;
@@ -372,6 +373,14 @@ body {
     scroll-snap-align: unset; }
   .plans__card:nth-child(odd) {
     order: 100; } }
+
+@media screen and (min-width: 1024px) {
+  .exchange__slider-wrapper {
+    gap: 10rem; }
+  .plans__slider {
+    gap: 6rem; }
+  .plans-cards {
+    min-width: 230px; } }
 
 .footer {
   display: flex;
